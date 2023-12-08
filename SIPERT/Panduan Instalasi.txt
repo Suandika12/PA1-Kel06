@@ -1,0 +1,10 @@
+Cara Install Project
+
+1. buka CMD di direktori project
+2. Ketik di command line "composer install"
+3. copy .env.example dan ubah menjadi .env
+4. Buat database sesuai dengan nama yang tertera di .env
+5. ketik di command line "php artisan key:generate"
+6. ketik di command line "php artisan migrate --seed"
+7. jalankan produk web dengan mengetikkan "php artisan serve" di command line
+8. Web app dapat diakses dihttp://127.0.0.1:8000/auth
